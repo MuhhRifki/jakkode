@@ -1,0 +1,30 @@
+{
+  "name": "uiui",
+  "version": "1.0.0",
+  "description": "this is uiui",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asepnur/uiui.git"
+  },
+  "author": "asepnur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asepnur/uiui/issues"
+  },
+  "homepage": "https://github.com/asepnur/uiui#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlclean": "^2.7.15",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1"
+  }
+}

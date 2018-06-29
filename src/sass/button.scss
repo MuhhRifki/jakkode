@@ -1,0 +1,62 @@
+// Button library
+@import 'variable';
+._bt {
+    font-family: $helvetica;
+    font-weight: 100; // default weight
+    font-size: .8em; // default font size
+    color: $hx-white;
+    width: 100%;
+    padding: 3px 0px; // default size
+    border: none;
+    border-radius: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+._bt3l {
+    @extend ._bt;
+    background-color: $hx-white;
+    border-radius: 25px;
+    border: 1px solid $_hmain;
+    -webkit-box-shadow: 0px 1px 15px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 15px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 15px -5px rgba(0, 0, 0, 0.75);
+    font-size: 1em;
+    font-weight: bold;
+    color: $_main;
+    padding: 10px 25px;
+    max-width: 75%;
+    &:hover {
+        color: $hx-white;
+        background-color: $_hmain;
+        -webkit-box-shadow: inset 0px -2px 0px 0px #312349;
+        -moz-box-shadow: inset 0px -2x 0px 0px #312349;
+        box-shadow: inset 0px -2px 0px 0px #312349;
+    }
+}
+
+._bt3l5g {
+    @extend ._bt;
+    text-align: left;
+    width: 85%;
+    background-color: $hx-white;
+    border: 1px solid $hx-lime;
+    -webkit-box-shadow: 0px 1px 15px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 15px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 15px -5px rgba(0, 0, 0, 0.75);
+    font-size: 1.1em;
+    font-weight: bold;
+    color: $hx-lime;
+    padding: 10px 25px;
+    &:hover {
+        color: $hx-white;
+        background-color: $hx-lime;
+        -webkit-box-shadow: inset 0px -2px 0px 0px rgba(18, 140, 126, 1);
+        -moz-box-shadow: inset 0px -2px 0px 0px rgba(18, 140, 126, 1);
+        box-shadow: inset 0px -2px 0px 0px rgba(18, 140, 126, 1);
+    }
+    i:after {
+        content: "  ";
+        white-space: pre;
+    }
+}

@@ -1,0 +1,92 @@
+// Header library 
+@import 'variable';
+._he {
+    font-family: $comfortaa;
+    font-size: 2.6em; // default size large
+    font-weight: bold;
+    color: $_main; // default color
+    text-align: left;
+    border: none;
+}
+
+// LARGE DEFAULT
+._he3l {
+    @extend ._he;
+    margin: 10px 0;
+    margin-left: 75px;
+}
+
+._he3l5w {
+    @extend ._he;
+    color: $hx-white;
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 1.6em;
+}
+
+// Description
+._de {
+    font-family: $comfortaa;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.6em;
+    color: $hx-black;
+    text-align: left;
+    border: none;
+}
+
+._de3m {
+    @extend ._de;
+    color: $hx-gray;
+    margin: 25px 75px;
+    width: 80%;
+    z-index: 1;
+}
+
+._description {
+    @extend ._de;
+    color: $hx-white;
+    font-weight: normal;
+    font-size: 1.4em;
+    p {
+        margin: 0;
+        padding-right: 20px;
+    }
+     :first-child {
+        margin-top: 50px;
+    }
+     :nth-child(2) {
+        margin-left: 20px;
+    }
+}
+
+//link
+._lk {
+    font-family: $comfortaa;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+._lk3m {
+    @extend ._lk;
+    margin-left: 10px;
+    &:hover {
+        color: $_main;
+        text-decoration: none;
+    }
+}
+
+//footer
+._fo {
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 1em;
+}
+
+// Padding
+._pdn {
+    padding: 0;
+}
