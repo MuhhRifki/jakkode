@@ -65,7 +65,7 @@ input[type="password"]:focus {
 
 ._bg1 {
     // background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-    background: url('../img/BG1.png');
+    background: url('../img/1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 100%;
@@ -77,7 +77,7 @@ input[type="password"]:focus {
 
 ._bg1_b {
     @extend ._bg1;
-    background: url('../img/BG1_b.png');
+    background: url('../img/1.png');
     background-size: cover;
 }
 
@@ -97,27 +97,28 @@ input[type="password"]:focus {
 ._bg3 {
     @extend ._bg1;
     // background: linear-gradient(141deg, #b8750f 0%, #db641f 51%, #e8582c 75%);
-    background: url('../img/BG3.png');
+    background: url('../img/3.png');
     background-size: cover;
 }
 
 ._bg4 {
     @extend ._bg1;
-    background: #47326e;
+    // background: #47326e;
     // background: linear-gradient(141deg, #b8750f 0%, #db641f 51%, #e8582c 75%);
-    // background: url('../img/BG3.png');
+    background: url('../img/4.png');
+    background-size: cover;
 }
 
 ._bg5 {
     @extend ._bg1;
     // background: linear-gradient(141deg, #b80f72 0%, #db1fd2 51%, #e82cdf 75%);
-    background: url('../img/BG4.png');
+    background: url('../img/5.png');
     background-size: cover;
 }
 
 ._bg5_b {
     @extend ._bg1;
-    background: url('../img/BG4_b.png');
+    background: url('../img/5_b.png');
     background-size: cover;
 }
 
@@ -233,7 +234,7 @@ input[type="password"]:focus {
     display: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     ._cr5w {
         width: 100%;
         height: auto;
@@ -283,7 +284,7 @@ input[type="password"]:focus {
     ._bg4,
     ._bg5 {
         bottom: 0;
-        height: 30%;
+        height: 25%;
     }
     ._p5c {
         margin-top: 30%;
@@ -297,7 +298,11 @@ input[type="password"]:focus {
         margin-left: 25px;
     }
     ._bt3l {
-        display: none;
+        position: fixed;
+        top: 30px;
+        right: 20px;
+        font-size: 11px;
+        max-width: 50%;
     }
     ._pdl3lr {
         padding-left: 0;
